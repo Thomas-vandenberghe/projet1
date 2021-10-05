@@ -1,0 +1,138 @@
+h1{
+width: 100%;
+text-align:center ;
+    
+}
+h2{
+    text-align: center;
+    
+}
+body{
+    background-color: rgba(37, 123, 144, 0.383);
+
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+header{
+    background-image:url(uefa1.png);
+    background-repeat :no-repeat;
+    width: 100%;
+    margin-left: 230px;
+}
+
+.menu-vertical{
+    display: block;
+    background-color: rgb(29, 54, 100);
+    width: 300px;
+    position: fixed;
+    float: left;
+    top: 0;
+    bottom: 0; 
+    box-shadow: 2px 2px 2px rgb(54, 44, 109);
+}
+
+.menu-vertical .logo{
+    background-image:url(uefa.png);
+    width: 300px;
+    height: 300px;
+    margin: 25px auto 15px auto;
+}
+.menu-vertical .menu{
+    background-color: rgb(23, 0, 117);
+    width: 270;
+    padding: 0px;
+    margin: 0px 5px 20px 5px;
+    border-radius: 30px;
+    text-align: center;
+}
+.menu-vertical .menu a{
+    display:block;
+    min-width: 210px;
+    color: rgb(247, 248, 248); /* Couleur du texte */
+    font-size: 18px;
+    margin: 0px;               /* Marges externes (1 valeurs = 4 directions) */
+    padding: 20px;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;           /* Centrage du texte */   
+    background-color: rgb(23, 0, 117);    /* Couleur d'arrière-plan */               
+    text-decoration: none;        /* Suppression du soulignement */
+    border-radius: 30px;   
+    transition: all 0.3s ;
+}
+.menu-vertical .menu a:hover{
+    display:block;
+    padding: 25px;
+    background-color: #c7b40f;
+    color: rgb(23, 0, 117);
+    border-color: rgb(23, 0, 117);
+}
+
+.container{
+    width: 60%;
+    margin: 50px 0px 0px 510px;
+}
+
+table{
+    text-align: center;
+    border-width: 1px;
+    border-collapse: collapse;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+caption{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: crimson;
+}
+th{
+    border: 2px solid black;
+    font-size: 25px;
+}
+td{
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+}
+footer a{
+    display: block;
+    font-size: 20px;
+    background-color: rgb(23, 0, 117);
+    color: white;
+    width: 180px;
+    height: 30px;
+    padding: 10px;
+    margin: 50px 0px 20px 375px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.2s ;  
+}
+footer a:hover{
+    display:block;
+    padding: 10px;
+    background-color: #c7b40f;
+    color: rgb(23, 0, 117);
+    border-color: rgb(23, 0, 117);
+  }
+  .boutons{
+      display: flex;
+  }
+
+  .boutons li{
+      list-style-type: none ;
+  }
+
+iframe{ 
+    margin-left: 280px;
+}
+
+.favoris{
+    margin: 20px 20px 20px 530px;
+}
