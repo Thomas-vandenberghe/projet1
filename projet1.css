@@ -1,6 +1,7 @@
-h1{
+h1, h3{
 width: 100%;
-text-align:center ;
+text-align: center;
+margin-left:0px;
     
 }
 h2{
@@ -9,37 +10,44 @@ h2{
 }
 body{
     background-color: rgba(37, 123, 144, 0.383);
-
+    float:right;
     margin: 0px;
     padding: 0px;
-    width: 100%;
+    width: 80%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
-
 header{
-    background-image:url(uefa1.png);
-    background-repeat :no-repeat;
-    width: 100%;
-    margin-left: 230px;
+    margin-top:-22px;
+    margin-bottom : 20px;
+    padding:0px;
 }
 
+.bandeau{display:block;
+         width: 100%;
+        height:auto;
+        float:right;
+        top:0px;
+        margin-bottom: 30px;
+}
 .menu-vertical{
-    display: block;
+    
     background-color: rgb(29, 54, 100);
-    width: 300px;
+    width: 20%;
     position: fixed;
     float: left;
+    margin: 0px ; 
     top: 0;
-    bottom: 0; 
+    left:0;
+    bottom:0;
     box-shadow: 2px 2px 2px rgb(54, 44, 109);
 }
 
-.menu-vertical .logo{
-    background-image:url(uefa.png);
-    width: 300px;
-    height: 300px;
-    margin: 25px auto 15px auto;
+.logo{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 15px auto 15px auto;
 }
 .menu-vertical .menu{
     background-color: rgb(23, 0, 117);
@@ -51,14 +59,14 @@ header{
 }
 .menu-vertical .menu a{
     display:block;
-    min-width: 210px;
+    min-width: 70%;
     color: rgb(247, 248, 248); /* Couleur du texte */
     font-size: 18px;
-    margin: 0px;               /* Marges externes (1 valeurs = 4 directions) */
-    padding: 20px;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
-    text-align: center;           /* Centrage du texte */   
-    background-color: rgb(23, 0, 117);    /* Couleur d'arrière-plan */               
-    text-decoration: none;        /* Suppression du soulignement */
+    margin: 0px;           
+    padding: 20px;            
+    text-align: center;            
+    background-color: rgb(23, 0, 117);              
+    text-decoration: none;        
     border-radius: 30px;   
     transition: all 0.3s ;
 }
@@ -72,7 +80,8 @@ header{
 
 .container{
     width: 60%;
-    margin: 50px 0px 0px 510px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 table{
@@ -108,7 +117,7 @@ footer a{
     width: 180px;
     height: 30px;
     padding: 10px;
-    margin: 50px 0px 20px 375px;
+    margin: 50px 0px 20px 175px;
     border-radius: 30px;
     text-align: center;
     text-decoration: none;
@@ -130,9 +139,17 @@ footer a:hover{
   }
 
 iframe{ 
-    margin-left: 280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .favoris{
     margin: 20px 20px 20px 530px;
+}
+
+.winners{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
